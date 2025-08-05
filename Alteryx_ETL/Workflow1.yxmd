@@ -1,0 +1,390 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2025.1" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="10000" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\wwwaj\Dropbox\PC\Downloads\DA\project\ETL\Superstore.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Superstore.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Row ID" size="254" source="File: C:\Users\wwwaj\Dropbox\PC\Downloads\DA\project\ETL\Superstore.csv" type="V_String" />
+            <Field name="Order ID" size="254" source="File: C:\Users\wwwaj\Dropbox\PC\Downloads\DA\project\ETL\Superstore.csv" type="V_String" />
+            <Field name="Order Date" size="254" source="File: C:\Users\wwwaj\Dropbox\PC\Downloads\DA\project\ETL\Superstore.csv" type="V_String" />
+            <Field name="Ship Date" size="254" source="File: C:\Users\wwwaj\Dropbox\PC\Downloads\DA\project\ETL\Superstore.csv" type="V_String" />
+            <Field name="Ship Mode" size="254" source="File: C:\Users\wwwaj\Dropbox\PC\Downloads\DA\project\ETL\Superstore.csv" type="V_String" />
+            <Field name="Customer ID" size="254" source="File: C:\Users\wwwaj\Dropbox\PC\Downloads\DA\project\ETL\Superstore.csv" type="V_String" />
+            <Field name="Customer Name" size="254" source="File: C:\Users\wwwaj\Dropbox\PC\Downloads\DA\project\ETL\Superstore.csv" type="V_String" />
+            <Field name="Segment" size="254" source="File: C:\Users\wwwaj\Dropbox\PC\Downloads\DA\project\ETL\Superstore.csv" type="V_String" />
+            <Field name="Country" size="254" source="File: C:\Users\wwwaj\Dropbox\PC\Downloads\DA\project\ETL\Superstore.csv" type="V_String" />
+            <Field name="City" size="254" source="File: C:\Users\wwwaj\Dropbox\PC\Downloads\DA\project\ETL\Superstore.csv" type="V_String" />
+            <Field name="State" size="254" source="File: C:\Users\wwwaj\Dropbox\PC\Downloads\DA\project\ETL\Superstore.csv" type="V_String" />
+            <Field name="Postal Code" size="254" source="File: C:\Users\wwwaj\Dropbox\PC\Downloads\DA\project\ETL\Superstore.csv" type="V_String" />
+            <Field name="Region" size="254" source="File: C:\Users\wwwaj\Dropbox\PC\Downloads\DA\project\ETL\Superstore.csv" type="V_String" />
+            <Field name="Product ID" size="254" source="File: C:\Users\wwwaj\Dropbox\PC\Downloads\DA\project\ETL\Superstore.csv" type="V_String" />
+            <Field name="Category" size="254" source="File: C:\Users\wwwaj\Dropbox\PC\Downloads\DA\project\ETL\Superstore.csv" type="V_String" />
+            <Field name="Sub-Category" size="254" source="File: C:\Users\wwwaj\Dropbox\PC\Downloads\DA\project\ETL\Superstore.csv" type="V_String" />
+            <Field name="Product Name" size="254" source="File: C:\Users\wwwaj\Dropbox\PC\Downloads\DA\project\ETL\Superstore.csv" type="V_String" />
+            <Field name="Sales" size="254" source="File: C:\Users\wwwaj\Dropbox\PC\Downloads\DA\project\ETL\Superstore.csv" type="V_String" />
+            <Field name="Quantity" size="254" source="File: C:\Users\wwwaj\Dropbox\PC\Downloads\DA\project\ETL\Superstore.csv" type="V_String" />
+            <Field name="Discount" size="254" source="File: C:\Users\wwwaj\Dropbox\PC\Downloads\DA\project\ETL\Superstore.csv" type="V_String" />
+            <Field name="Profit" size="254" source="File: C:\Users\wwwaj\Dropbox\PC\Downloads\DA\project\ETL\Superstore.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="186" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Row ID" selected="True" type="Int64" size="8" />
+            <SelectField field="Order ID" selected="True" />
+            <SelectField field="Order Date" selected="True" />
+            <SelectField field="Ship Date" selected="True" />
+            <SelectField field="Ship Mode" selected="True" />
+            <SelectField field="Customer ID" selected="True" />
+            <SelectField field="Customer Name" selected="True" />
+            <SelectField field="Segment" selected="True" />
+            <SelectField field="Country" selected="True" />
+            <SelectField field="City" selected="True" />
+            <SelectField field="State" selected="True" />
+            <SelectField field="Postal Code" selected="True" type="Int64" size="8" />
+            <SelectField field="Region" selected="True" />
+            <SelectField field="Product ID" selected="True" />
+            <SelectField field="Category" selected="True" />
+            <SelectField field="Sub-Category" selected="True" />
+            <SelectField field="Product Name" selected="True" />
+            <SelectField field="Sales" selected="True" type="Float" size="4" />
+            <SelectField field="Quantity" selected="True" type="Int64" size="8" />
+            <SelectField field="Discount" selected="True" type="Float" size="4" />
+            <SelectField field="Profit" selected="True" type="Float" size="4" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="270" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF [Country] = &quot;United States&quot; THEN &quot;USA&quot; ELSE [Country] ENDIF&#xA;" field="Country" size="254" type="V_String" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Country = IF [Country] = "United States" THEN "USA" ELSE [Country] ENDIF
+
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="450" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="DateTimeParse([Order Date],&quot;%m/%d/%Y&quot;)&#xA;" field="Order Date" size="254" type="V_String" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Order Date = DateTimeParse([Order Date],"%m/%d/%Y")
+
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="558" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="DateTimeParse([Ship Date],&quot;%m/%d/%Y&quot;)&#xA;" field="Ship Date" size="254" type="V_String" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Ship Date = DateTimeParse([Ship Date],"%m/%d/%Y")
+
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="702" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Order Date" selected="True" type="Date" size="10" />
+            <SelectField field="Ship Date" selected="True" type="Date" size="10" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="714" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="DateTimeYear([Order Date])&#xA;" field="Order Year" size="1073741823" type="V_WString" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Order Year = DateTimeYear([Order Date])
+
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="858" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="Round(([Profit] / [Sales]) * 100, 2)&#xA;" field="Profit Margin" size="4" type="Float" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Profit Margin = Round(([Profit] / [Sales]) * 100, 2)
+
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1002" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF [Profit Margin] &lt;= 0 THEN &quot;Loss&quot;&#xA;ELSEIF [Profit Margin] &lt;= 10 THEN &quot;Low&quot;&#xA;ELSEIF [Profit Margin] &lt;= 30 THEN &quot;Medium&quot;&#xA;ELSE &quot;High&quot;&#xA;ENDIF&#xA;" field="Margin Tier" size="1073741823" type="V_WString" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Margin Tier = IF [Profit Margin] &lt;= 0 THEN "Loss"
+ELSEIF [Profit Margin] &lt;= 10 T...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1182" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\wwwaj\Dropbox\PC\Downloads\DA\project\ETL\Transformed_Superstore.csv</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+            <SuppressBlankFile>False</SuppressBlankFile>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Transformed_Superstore.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1170" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\wwwaj\AppData\Local\Temp\Alteryx\Engine_7632_11021d5044314fbbbcd57b5eeec59fc0_\Engine_7632_6604ba2384a441d2826f5ae569fa2751~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>LR</ViewMode>
+            <ViewSize value="49" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints />
+            </View2>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <DefaultTZ value="Local" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>New Workflow1</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="9361b391-7ca1-476f-abdf-edaeb7203d66" />
+      <Telemetry>
+        <PreviousWorkflowId value="8c879875-fe93-4723-ab2e-3b500e725592" />
+        <OriginWorkflowId value="8c879875-fe93-4723-ab2e-3b500e725592" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
