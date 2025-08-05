@@ -30,13 +30,14 @@ This project demonstrates an end-to-end data analytics workflow involving data t
     <br>
     <img width="1566" height="846" alt="Alteryx workflow data" src="https://github.com/user-attachments/assets/d8997fb1-423e-400e-88cd-66b7f2d67249" />
     <br>
+    <br>
 
-  **Data Warehousing**
-    - Created a dedicated Snowflake Database.
-    - Loaded the cleaned and enriched dataset into a Snowflake table using the import wizard.
-    <br>
-    <img width="1597" height="918" alt="Snowflake Load preview" src="https://github.com/user-attachments/assets/12bd7da9-3735-4b10-bb4c-c49ad3e5912b" />
-    <br>
+ **Data Warehousing**
+  - Created a dedicated Snowflake Database.
+  - Loaded the cleaned and enriched dataset into a Snowflake table using the import wizard.
+  <br>
+  <img width="1597" height="918" alt="Snowflake Load preview" src="https://github.com/user-attachments/assets/12bd7da9-3735-4b10-bb4c-c49ad3e5912b" />
+  <br>
 
   **Visualization in Power BI**  
     - Built 2-page report with:
