@@ -36,13 +36,13 @@ This project demonstrates an end-to-end data analytics workflow involving data t
   <img width="1597" height="918" alt="Snowflake Load preview" src="https://github.com/user-attachments/assets/12bd7da9-3735-4b10-bb4c-c49ad3e5912b" />
   <br>
 
-  **Visualization in Power BI**  
-    - Built 2-page report with:
-    - KPIs: Sales, Profit, AOV, Profit Margin, Orders
-     <br>
-     <img width="577" height="285" alt="KPIs" src="https://github.com/user-attachments/assets/6b1a8eab-30f7-42a2-95da-bd4849f900cd" />
-     <br>
-     <br> 
+ **Visualization in Power BI**  
+   - Built 2-page report with:
+   - KPIs: Sales, Profit, AOV, Profit Margin, Orders
+   <br>
+   <img width="577" height="285" alt="KPIs" src="https://github.com/user-attachments/assets/6b1a8eab-30f7-42a2-95da-bd4849f900cd" />
+   <br>
+     
 ## Report Page
   **Executive KPIs at a Glance**
     - Total Sales: $2.30M
@@ -51,28 +51,27 @@ This project demonstrates an end-to-end data analytics workflow involving data t
     - Total Quantity: 37,873
     - Profit Margin: 12.47%
     - Average Order Value: $458.6
-    **Category-Level Insights**
-      - Sales and Profit by Category (Bar charts for Technology, Furniture, Office Supplies)
-      - Quickly identifies the highest and lowest performing product categories.
-    **Segment and Region Analysis**
-      - Donut Charts to show quantity distribution by:
-      - Customer Segment (Consumer, Corporate, Home Office)
-      - Region (West, East, Central, South)
-    **Shipping Mode Analysis**
-      - Bar chart showing order distribution by Ship Mode: Standard, Second Class, First Class, and Same Day.  
-    **Sub-Category Sales Analysis**
-      - Bar chart of Sales by Sub-Category (Phones, Chairs, Storage, Tables, etc.)
-      - Highlights top-performing products at a granular level.
-    **Discount vs. Profit Impact**
-      - Line and area chart showing profit trends by discount tiers, visualizing the tradeoff between discounts and profitability.
-    **Dynamic Slicers for Filtering**
-      - Interactive filters for: Year, Region, Ship, Mode, Category
-      - Allows users to drill down into specific dimensions.
-      <br>
+   **Category-Level Insights**
+     - Sales and Profit by Category (Bar charts for Technology, Furniture, Office Supplies)
+     - Quickly identifies the highest and lowest performing product categories.
+   **Segment and Region Analysis**
+     - Donut Charts to show quantity distribution by:
+     - Customer Segment (Consumer, Corporate, Home Office)
+     - Region (West, East, Central, South)
+   **Shipping Mode Analysis**
+     - Bar chart showing order distribution by Ship Mode: Standard, Second Class, First Class, and Same Day.  
+   **Sub-Category Sales Analysis**
+     - Bar chart of Sales by Sub-Category (Phones, Chairs, Storage, Tables, etc.)
+     - Highlights top-performing products at a granular level.
+   **Discount vs. Profit Impact**
+     - Line and area chart showing profit trends by discount tiers, visualizing the tradeoff between discounts and profitability.
+   **Dynamic Slicers for Filtering**
+     - Interactive filters for: Year, Region, Ship, Mode, Category
+     - Allows users to drill down into specific dimensions.
+     <br>
      <img width="1376" height="773" alt="Report Page" src="https://github.com/user-attachments/assets/cb0d2fac-e08b-4dee-b7c9-f1a1716c1f84" />
      <br>
-     <br>
-     <br>
+     
  ## Overview Page     
   **Top City Performance**
     - Separate cards showing cities ranked by: Profit, Sales, Orders, Quantity
