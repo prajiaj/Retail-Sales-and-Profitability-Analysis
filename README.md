@@ -20,11 +20,11 @@ This project demonstrates an end-to-end data analytics workflow involving data t
   - Contains 21 columns including order info, customer, product, sales, profit, discount, etc.
   <img width="530" height="625" alt="Souce data directory" src="https://github.com/user-attachments/assets/c119f5b9-0c91-450e-9465-d2abd6d15604" />
   <br>
-**2️⃣ETL in Alteryx**   
-  - Cleaned missing/duplicate data
-  - Created calculated fields:1️⃣Profit Margin = Profit / Sales 2️⃣Margin Tier: Binned Profit Margin into categories (Low, Medium, High)
-  - Formatted numeric fields (e.g., rounded to 2 decimals)
-  - Exported the result as Superstore_Transformed.csv
+**ETL in Alteryx**   
+   - Cleaned missing/duplicate data
+   - Created calculated fields:1️⃣Profit Margin = Profit / Sales 2️⃣Margin Tier: Binned Profit Margin into categories (Low, Medium, High)
+   - Formatted numeric fields (e.g., rounded to 2 decimals)
+   - Exported the result as Superstore_Transformed.csv
   <img width="1566" height="846" alt="Alteryx workflow data" src="https://github.com/user-attachments/assets/d8997fb1-423e-400e-88cd-66b7f2d67249" />
 
 
