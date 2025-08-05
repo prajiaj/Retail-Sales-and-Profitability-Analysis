@@ -18,9 +18,7 @@ This project demonstrates an end-to-end data analytics workflow involving data t
 **1️⃣Data Source**
   - Dataset: Superstore Sales Data (Superstore_Raw.csv)
   - Contains 21 columns including order info, customer, product, sales, profit, discount, etc.
-  <br>
   <img width="530" height="625" alt="Souce data directory" src="https://github.com/user-attachments/assets/c119f5b9-0c91-450e-9465-d2abd6d15604" />
-  <br>
   <br>
 **ETL in Alteryx**   
  - Cleaned missing/duplicate data
@@ -29,7 +27,6 @@ This project demonstrates an end-to-end data analytics workflow involving data t
  - Exported the result as Superstore_Transformed.csv
  <br>
  <img width="1566" height="846" alt="Alteryx workflow data" src="https://github.com/user-attachments/assets/d8997fb1-423e-400e-88cd-66b7f2d67249" />
- <br>
  <br>
 
  **Data Warehousing**
