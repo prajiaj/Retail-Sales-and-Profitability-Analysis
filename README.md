@@ -19,7 +19,8 @@ This project demonstrates an end-to-end data analytics workflow involving data t
   - Dataset: Superstore Sales Data (Superstore_Raw.csv)
   - Contains 21 columns including order info, customer, product, sales, profit, discount, etc.
   <img width="530" height="625" alt="Souce data directory" src="https://github.com/user-attachments/assets/c119f5b9-0c91-450e-9465-d2abd6d15604" />
-**ETL in Alteryx**   
+  <br>
+**2️⃣ETL in Alteryx**   
   - Cleaned missing/duplicate data
   - Created calculated fields:1️⃣Profit Margin = Profit / Sales 2️⃣Margin Tier: Binned Profit Margin into categories (Low, Medium, High)
   - Formatted numeric fields (e.g., rounded to 2 decimals)
