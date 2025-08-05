@@ -44,30 +44,12 @@ This project demonstrates an end-to-end data analytics workflow involving data t
    <br>
      
 ## Report Page
-**Executive KPIs at a Glance**
-   - Total Sales: $2.30M
-   - Total Profit: $2,86,397
-   - Total Orders: 5K
-   - Total Quantity: 37,873
-   - Profit Margin: 12.47%
-   - Average Order Value: $458.6
-**Category-Level Insights**
-   - Sales and Profit by Category (Bar charts for Technology, Furniture, Office Supplies)
-   - Quickly identifies the highest and lowest performing product categories.
-**Segment and Region Analysis**
-   - Donut Charts to show quantity distribution by:
-   - Customer Segment (Consumer, Corporate, Home Office)
-   - Region (West, East, Central, South)
-**Shipping Mode Analysis**
-   - Bar chart showing order distribution by Ship Mode: Standard, Second Class, First Class, and Same Day.  
-**Sub-Category Sales Analysis**
-   - Bar chart of Sales by Sub-Category (Phones, Chairs, Storage, Tables, etc.)
-   - Highlights top-performing products at a granular level.
-**Discount vs. Profit Impact**
-   - Line and area chart showing profit trends by discount tiers, visualizing the tradeoff between discounts and profitability.
-**Dynamic Slicers for Filtering**
-   - Interactive filters for: Year, Region, Ship, Mode, Category
-   - Allows users to drill down into specific dimensions.
+**Report Page Summary**
+ - Showcases KPIs: Sales, Profit, Orders, Profit Margin
+ - Visualizes trends using bar, line, and pie charts
+ - Highlights performance by Category, Segment, and Region
+ - Enables filtering with slicers for dynamic analysis
+ - Supports business insights through clear comparisons
   <br>
   <img width="1376" height="773" alt="Report Page" src="https://github.com/user-attachments/assets/cb0d2fac-e08b-4dee-b7c9-f1a1716c1f84" />
   <br>
