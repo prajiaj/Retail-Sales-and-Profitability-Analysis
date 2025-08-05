@@ -25,8 +25,8 @@ This project demonstrates an end-to-end data analytics workflow involving data t
  **ETL in Alteryx**   
   - Cleaned missing/duplicate data
   - Created calculated fields:
-      Profit Margin = Profit / Sales
-      Margin Tier: Binned Profit Margin into categories (Low, Medium, High)
+      1.Profit Margin = Profit / Sales
+      2.Margin Tier: Binned Profit Margin into categories (Low, Medium, High)
   - Formatted numeric fields (e.g., rounded to 2 decimals)
   - Exported the result as Superstore_Transformed.csv
     <br>
