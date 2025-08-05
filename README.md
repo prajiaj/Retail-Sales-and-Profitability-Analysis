@@ -21,12 +21,10 @@ This project demonstrates an end-to-end data analytics workflow involving data t
   <br>
   <img width="530" height="625" alt="Souce data directory" src="https://github.com/user-attachments/assets/c119f5b9-0c91-450e-9465-d2abd6d15604" />
   <br>
-
+  <br>
  **ETL in Alteryx**   
   - Cleaned missing/duplicate data
-  - Created calculated fields:
-      1.Profit Margin = Profit / Sales
-      2.Margin Tier: Binned Profit Margin into categories (Low, Medium, High)
+  - Created calculated fields:1️⃣Profit Margin = Profit / Sales 2️⃣Margin Tier: Binned Profit Margin into categories (Low, Medium, High)
   - Formatted numeric fields (e.g., rounded to 2 decimals)
   - Exported the result as Superstore_Transformed.csv
     <br>
@@ -46,50 +44,43 @@ This project demonstrates an end-to-end data analytics workflow involving data t
      <br>
      <img width="577" height="285" alt="KPIs" src="https://github.com/user-attachments/assets/6b1a8eab-30f7-42a2-95da-bd4849f900cd" />
      <br>
-    **Report Page**
-    - Executive KPIs at a Glance
-        Total Sales: $2.30M
-        Total Profit: $2,86,397
-        Total Orders: 5K
-        Total Quantity: 37,873
-        Profit Margin: 12.47%
-        Average Order Value: $458.6
-    - Category-Level Insights
-        Sales and Profit by Category (Bar charts for Technology, Furniture, Office Supplies)
-        Quickly identifies the highest and lowest performing product categories.
-    - Segment and Region Analysis
-        Donut Charts to show quantity distribution by:
-        Customer Segment (Consumer, Corporate, Home Office)
-        Region (West, East, Central, South)
-    - Shipping Mode Analysis
-        Bar chart showing order distribution by Ship Mode: Standard, Second Class, First Class, and Same Day.
-    - Sub-Category Sales Analysis
-        Bar chart of Sales by Sub-Category (Phones, Chairs, Storage, Tables, etc.)
-        Highlights top-performing products at a granular level.
-    - Discount vs. Profit Impact
-        Line and area chart showing profit trends by discount tiers, visualizing the tradeoff between discounts and profitability.
-    - Dynamic Slicers for Filtering
-        Interactive filters for:
-        Year, Region, Ship, Mode, Category
-        Allows users to drill down into specific dimensions.
+     <br> 
+## Report Page
+  **Executive KPIs at a Glance**
+    - Total Sales: $2.30M
+    - Total Profit: $2,86,397
+    - Total Orders: 5K
+    - Total Quantity: 37,873
+    - Profit Margin: 12.47%
+    - Average Order Value: $458.6
+    **Category-Level Insights**
+      - Sales and Profit by Category (Bar charts for Technology, Furniture, Office Supplies)
+      - Quickly identifies the highest and lowest performing product categories.
+    **Segment and Region Analysis**
+      - Donut Charts to show quantity distribution by:
+      - Customer Segment (Consumer, Corporate, Home Office)
+      - Region (West, East, Central, South)
+    **Shipping Mode Analysis**
+      - Bar chart showing order distribution by Ship Mode: Standard, Second Class, First Class, and Same Day.  
+    **Sub-Category Sales Analysis**
+      - Bar chart of Sales by Sub-Category (Phones, Chairs, Storage, Tables, etc.)
+      - Highlights top-performing products at a granular level.
+    **Discount vs. Profit Impact**
+      - Line and area chart showing profit trends by discount tiers, visualizing the tradeoff between discounts and profitability.
+    **Dynamic Slicers for Filtering**
+      - Interactive filters for: Year, Region, Ship, Mode, Category
+      - Allows users to drill down into specific dimensions.
       <br>
      <img width="1376" height="773" alt="Report Page" src="https://github.com/user-attachments/assets/cb0d2fac-e08b-4dee-b7c9-f1a1716c1f84" />
      <br>
      <br>
      <br>
-     
-
-   **Overview Page**     
-     - Top City Performance
-          Separate cards showing cities ranked by:
-          Profit
-          Sales
-          Orders
-          Quantity
-      - Highlights cities driving most revenue and transactions.
-      - Customer-Level Performance Table
-          Detailed table with:
-          Customer Name, Segment, Ship Mode, Category, Region, City, State, Country, Quantity, Sales, Profit   
+ ## Overview Page     
+  **Top City Performance**
+    - Separate cards showing cities ranked by: Profit, Sales, Orders, Quantity
+    - Highlights cities driving most revenue and transactions.
+   **Customer-Level Performance Table**
+    - Detailed table with: Customer Name, Segment, Ship Mode, Category, Region, City, State, Country, Quantity, Sales, Profit.   
           <br>
           <img width="1358" height="771" alt="Overview Page" src="https://github.com/user-attachments/assets/7c964e1c-7b1a-4dee-af36-a5220ff83d29" />
 
