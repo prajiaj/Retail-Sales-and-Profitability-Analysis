@@ -15,9 +15,9 @@ This project demonstrates an end-to-end data analytics workflow involving data t
   - GitHub(Version Control)
     
 ## Project Workflow
-**Data Source**
-    - Dataset: Superstore Sales Data (Superstore_Raw.csv)
-    - Contains 21 columns including order info, customer, product, sales, profit, discount, etc.
+**1️⃣Data Source**
+  - Dataset: Superstore Sales Data (Superstore_Raw.csv)
+  - Contains 21 columns including order info, customer, product, sales, profit, discount, etc.
     <br>
     <img width="530" height="625" alt="Souce data directory" src="https://github.com/user-attachments/assets/c119f5b9-0c91-450e-9465-d2abd6d15604" />
     <br>
