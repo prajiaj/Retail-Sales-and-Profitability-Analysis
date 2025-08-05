@@ -3,12 +3,9 @@ This project demonstrates an end-to-end data analytics workflow involving data t
 
 ## Key objectives include:
 
-1.Identifying top-performing product categories
-
-2.Analyzing regional and segment-level sales
-
-3.Exploring profit margins and discount impacts
-
-4.Creating KPIs and dashboards for decision-making
+  - Identifying top-performing product categories
+  - Analyzing regional and segment-level sales
+  - Exploring profit margins and discount impacts
+  - Creating KPIs and dashboards for decision-making
 
 ##Technologies & Tools Used
