@@ -11,7 +11,7 @@ This project demonstrates an end-to-end data analytics workflow involving data t
 ## 🛠 Technologies & Tools Used
   - Alteryx ETL(Extract, Transform, Load) operations including data cleaning, derived metrics, and binning.
   - Snowflake(Data Warehousing, To store and query the transformed data)
-  - Power BI(Data Visualization,KPIs)
+  - Power BI(Data Visualization, KPIs)
   - GitHub(Version Control)
     
 ## Project Workflow
